@@ -1,6 +1,6 @@
 {
   "name": "uniqueify",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Returns a array with only unique values. Otherwise known as a Set",
   "main": "index.js",
   "scripts": {
