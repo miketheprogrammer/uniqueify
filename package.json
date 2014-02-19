@@ -1,0 +1,46 @@
+{
+  "name": "uniqueify",
+  "version": "0.0.0",
+  "description": "Returns a array with only unique values. Otherwise known as a Set",
+  "main": "index.js",
+  "scripts": {
+    "test": "DEBUG=* node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/miketheprogrammer/uniqueify.git"
+  },
+  "keywords": [
+    "array",
+    "unique",
+    "set",
+    "sets",
+    "lists"
+  ],
+  "testling": {
+    "files": "test.js",
+    "browsers": [
+      "ie/6..latest",
+      "chrome/22..latest",
+      "firefox/16..latest",
+      "safari/latest",
+      "opera/11.0..latest",
+      "iphone/6",
+      "ipad/6",
+      "android-browser/latest"
+    ]
+  },
+  "author": "Michael Hernandez -- michael.hernandez1988@gmail.com",
+  "license": "MIT License",
+  "bugs": {
+    "url": "https://github.com/miketheprogrammer/uniqueify/issues"
+  },
+  "homepage": "https://github.com/miketheprogrammer/uniqueify",
+  "devDependencies": {
+    "debug": "~0.7.4",
+    "tape": "~2.4.2"
+  },
+  "dependencies": {
+    "deep-equal": "~0.2.1"
+  }
+}
