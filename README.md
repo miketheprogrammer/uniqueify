@@ -30,3 +30,7 @@ test("The values returned should be unique", function(t) {
 
 Objects are maintained in a seperate list and that list is iterated over to compare, it is then added at the end. So all objects appear at the end of the resulting Set.
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/miketheprogrammer/uniqueify/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
